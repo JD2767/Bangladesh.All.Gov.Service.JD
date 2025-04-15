@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JD ALL GOV BD AI - Bangladesh Government Services</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="images/logo.jpg" alt="JD ALL GOV BD AI Logo" class="logo">
+        </div>
+        <h1>Bangladesh Government Services Portal</h1>
+        <h2>বাংলাদেশ সরকারি সেবা পোর্টাল</h2>
+    </header>
+
+    <div class="language-toggle">
+        <button id="bengali-btn" class="active">বাংলা</button>
+        <button id="english-btn">English</button>
+    </div>
+
+    <div class="search-container">
+        <input type="text" id="search-input" placeholder="Search services / সেবা খুঁজুন">
+        <button id="search-btn"><i class="fas fa-search"></i></button>
+    </div>
+
+    <main>
+        <div class="services-container">
+            <div class="services-column">
+                <h2 class="column-title">Essential Services / প্রধান সেবাসমূহ</h2>
+                <div class="service-category">
+                    <h3>Identification & Documentation / পরিচয় ও নথিপত্র</h3>
+                    <ul class="service-list">
+                        <li>
+                            <a href="https://www.nidw.gov.bd/" target="_blank">
+                                <span class="en">National ID Card</span>
+                                <span class="bn">জাতীয় পরিচয়পত্র</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://epassport.gov.bd/" target="_blank">
+                                <span class="en">Passport</span>
+                                <span class="bn">পাসপোর্ট</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://everify.bdris.gov.bd/" target="_blank">
+                                <span class="en">Birth and Death Registration</span>
+                                <span class="bn">জন্ম ও মৃত্যু নিবন্ধন</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="service-category">
+                    <h3>Land & Property / ভূমি ও সম্পত্তি</h3>
+                    <ul class="service-list">
+                        <li>
+                            <a href="https://eporcha.gov.bd/" target="_blank">
+                                <span class="en">e-Porcha</span>
+                                <span class="bn">ই-পর্চা</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://dlrs.gov.bd/" target="_blank">
+                                <span class="en">Digital Land Record</span>
+                                <span class="bn">ডিজিটাল ভূমি রেকর্ড</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://rs.land.gov.bd/" target="_blank">
+                                <span class="en">RS Measurement Calculator</span>
+                                <span class="bn">আরএস পরিমাপ ক্যালকুলেটর</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="service-category">
+                    <h3>Law & Security / আইন ও নিরাপত্তা</h3>
+                    <ul class="service-list">
+                        <li>
+                            <a href="https://pcc.police.gov.bd/" target="_blank">
+                                <span class="en">Police Clearance Certificate</span>
+                                <span class="bn">পুলিশ ক্লিয়ারেন্স সার্টিফিকেট</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://gd.police.gov.bd/" target="_blank">
+                                <span class="en">Online GD</span>
+                                <span class="bn">অনলাইন জিডি</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://www.supremecourt.gov.bd/" target="_blank">
+                                <span class="en">Supreme Court of Bangladesh</span>
+                                <span class="bn">বাংলাদেশ সুপ্রিম কোর্ট</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://ljd.gov.bd/" target="_blank">
+                                <span class="en">Law and Justice Division</span>
+                                <span class="bn">আইন ও বিচার বিভাগ</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="service-category">
+                    <h3>Tax & Finance / কর ও অর্থ</h3>
+                    <ul class="service-list">
+                        <li>
+                            <a href="https://nbr.gov.bd/" target="_blank">
+                                <span class="en">Tax</span>
+                                <span class="bn">ট্যাক্স বা কর</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://echallan.gov.bd/" target="_blank">
+                                <span class="en">e-Challan</span>
+                                <span class="bn">ই-চালান</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.bb.org.bd/" target="_blank">
+                                <span class="en">Bangladesh Bank</span>
+                                <span class="bn">বাংলাদেশ ব্যাংক</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://nsd.gov.bd/" target="_blank">
+                                <span class="en">National Savings Directorate</span>
+                                <span class="bn">জাতীয় সঞ্চয় অধিদপ্তর</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="service-category">
+                    <h3>Education / শিক্ষা</h3>
+                    <ul class="service-list">
+                        <li>
+                            <a href="http://www.dshe.gov.bd/" target="_blank">
+                                <span class="en">Directorate of Secondary and Higher Education</span>
+                                <span class="bn">মাধ্যমিক ও উচ্চ শিক্ষা অধিদপ্তর</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://www.dpe.gov.bd/" target="_blank">
+                                <span class="en">Directorate of Primary Education</span>
+                                <span class="bn">প্রাথমিক শিক্ষা অধিদপ্তর</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="services-column">
+                <h2 class="column-title">Additional Services / অতিরিক্ত সেবাসমূহ</h2>
+                <div class="service-category">
+                    <h3>Employment & Career / চাকরি ও কর্মজীবন</h3>
+                    <ul class="service-list">
+                        <li>
+                            <a href="http://bpsc.gov.bd/" target="_blank">
+                                <span class="en">Bangladesh Public Service Commission</span>
+                                <span class="bn">বাংলাদেশ সরকারি কর্মকমিশন</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://alljobs.teletalk.com.bd/" target="_blank">
+                                <span class="en">Teletalk Bangladesh Limited</span>
+                                <span class="bn">টেলিটক বাংলাদেশ লিমিটেড</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://probashi.gov.bd/" target="_blank">
+                                <span class="en">Ministry of Expatriates' Welfare and Overseas Employment</span>
+                                <span class="bn">প্রবাসী কল্যাণ ও বৈদেশিক কর্মসংস্থান মন্ত্রণালয়</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="service-category">
+                    <h3>Health & Welfare / স্বাস্থ্য ও কল্যাণ</h3>
+                    <ul class="service-list">
+                        <li>
+                            <a href="https://dghs.gov.bd/" target="_blank">
+                                <span class="en">Healthcare</span>
+                                <span class="bn">স্বাস্থ্যসেবা</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://www.dss.gov.bd/" target="_blank">
+                                <span class="en">Department of Social Services</span>
+                                <span class="bn">সমাজসেবা অধিদপ্তর</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://mowca.gov.bd/" target="_blank">
+                                <span class="en">Ministry of Women and Children Affairs</span>
+                                <span class="bn">মহিলা ও শিশু বিষয়ক মন্ত্রণালয়</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="service-category">
+                    <h3>Utilities & Services / উপযোগিতা ও সেবা</h3>
+                    <ul class="service-list">
+                        <li>
+                            <a href="https://dpdc.org.bd/" target="_blank">
+                                <span class="en">Dhaka Power Distribution Company Limited</span>
+                                <span class="bn">ঢাকা পাওয়ার ডিস্ট্রিবিউশন কোম্পানি লিমিটেড</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://desco.gov.bd/" target="_blank">
+                                <span class="en">Dhaka Electric Supply Company Limited</span>
+                                <span class="bn">ঢাকা ইলেকট্রিক সাপ্লাই কোম্পানি লিমিটেড</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://www.titasgas.com.bd/" target="_blank">
+                                <span class="en">Titas Gas Transmission and Distribution Company Limited</span>
+                                <span class="bn">তিতাস গ্যাস ট্রান্সমিশন অ্যান্ড ডিস্ট্রিবিউশন কোম্পানি লিমিটেড</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://dwasa.org.bd/" target="_blank">
+                                <span class="en">Dhaka WASA</span>
+                                <span class="bn">ঢাকা ওয়াসা</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="service-category">
+                    <h3>Transport & Communication / পরিবহন ও যোগাযোগ</h3>
+                    <ul class="service-list">
+                        <li>
+                            <a href="http://www.brta.gov.bd/" target="_blank">
+                                <span class="en">Bangladesh Road Transport Authority</span>
+                                <span class="bn">বাংলাদেশ সড়ক পরিবহন কর্তৃপক্ষ</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://railway.gov.bd/" target="_blank">
+                                <span class="en">Bangladesh Railway</span>
+                                <span class="bn">বাংলাদেশ রেলওয়ে</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://btrc.gov.bd/" target="_blank">
+                                <span class="en">Bangladesh Telecommunication Regulatory Commission</span>
+                                <span class="bn">বাংলাদেশ টেলিযোগাযোগ নিয়ন্ত্রণ কমিশন</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="service-category">
+                    <h3>Business & Industry / ব্যবসা ও শিল্প</h3>
+                    <ul class="service-list">
+                        <li>
+                            <a href="http://dncrp.portal.gov.bd/" target="_blank">
+                                <span class="en">Consumer Rights</span>
+                                <span class="bn">ভোক্তা অধিকার</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://bida.gov.bd/" target="_blank">
+                                <span class="en">Bangladesh Investment Development Authority</span>
+                                <span class="bn">বিনিয়োগ বোর্ড</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://epb.gov.bd/" target="_blank">
+                                <span class="en">Export Promotion Bureau</span>
+                                <span class="bn">রপ্তানি উন্নয়ন ব্যুরো</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://smef.gov.bd/" target="_blank">
+                                <span class="en">SME Foundation</span>
+                                <span class="bn">ক্ষুদ্র ও মাঝারি শিল্প ফাউন্ডেশন</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://copyrightoffice.gov.bd/" target="_blank">
+                                <span class="en">Copyright Office</span>
+                                <span class="bn">কপিরাইট অফিস</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.dpdt.gov.bd/" target="_blank">
+                                <span class="en">Department of Patents, Designs and Trademarks</span>
+                                <span class="bn">পেটেন্ট, ডিজাইন ও ট্রেডমার্ক অধিদপ্তর</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="service-category">
+                    <h3>Other Services / অন্যান্য সেবা</h3>
+                    <ul class="service-list">
+                        <li>
+                            <a href="https://esheba.gov.bd/" target="_blank">
+                                <span class="en">National e-Service Platform</span>
+                                <span class="bn">জাতীয় ই-সেবা প্ল্যাটফর্ম</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://ais.gov.bd/" target="_blank">
+                                <span class="en">Agriculture Information Service</span>
+                                <span class="bn">কৃষি তথ্য সার্ভিস</span>
+                            </a>
+                        </li>
+                        <li>
+                         
+(Content truncated due to size limit. Use line ranges to read in chunks)
